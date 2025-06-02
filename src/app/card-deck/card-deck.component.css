@@ -1,0 +1,18 @@
+.card-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: linear-gradient(90deg, #e0e7ef 60%, #b2ffb2 100%);
+  padding: 24px;
+  border-radius: 20px;
+  box-shadow: 0 4px 16px rgba(40, 45, 84, 0.1);
+  margin: 0 auto 24px auto;
+  max-width: 400px;
+}
+
+.card-row {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: center;
+}

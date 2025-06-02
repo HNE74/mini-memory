@@ -1,0 +1,10 @@
+<div class="card-grid">
+  <div class="card-row" *ngFor="let row of [0, 1, 2, 3]">
+    <app-number-card
+      *ngFor="let col of [0, 1, 2, 3]"
+      [card]="gameService.cards ? gameService.cards[row * 4 + col] : undefined"
+      (cardSelected)="cardSelected($event)"
+    >
+    </app-number-card>
+  </div>
+</div>

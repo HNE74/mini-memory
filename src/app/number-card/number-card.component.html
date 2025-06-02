@@ -1,0 +1,8 @@
+<button
+  [class.open-card-button]="card?.selected && card?.enabled"
+  [class.covered-card-button]="!card?.selected && card?.enabled"
+  [class.disabled-card-button]="!card?.enabled"
+  (click)="selectCard()"
+>
+  {{ card?.selected || card?.enabled === false ? card?.value : "" }}
+</button>

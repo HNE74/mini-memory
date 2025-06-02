@@ -1,0 +1,36 @@
+.open-card-button {
+  width: 80px;
+  height: 80px;
+  background-color: #4caf50; /* green */
+  border: none;
+  border-radius: 4cap;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 4px;
+}
+
+.disabled-card-button {
+  width: 80px;
+  height: 80px;
+  background-color: #e9e90f; /* yellow */
+  border: none;
+  border-radius: 4cap;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 4px;
+}
+
+.covered-card-button {
+  width: 80px;
+  height: 80px;
+  background-color: #282d54; /* very dark blue */
+  border: none;
+  border-radius: 40%;
+  cursor: pointer;
+  display: inline-block;
+  margin: 4px;
+}

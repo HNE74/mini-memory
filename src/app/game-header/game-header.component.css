@@ -1,0 +1,21 @@
+.game-header {
+  font-family: "Arial";
+  color: #222; /* dark text */
+  background: linear-gradient(90deg, #b2ffb2 60%, #e0e7ef 100%);
+  padding: 16px 0;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 16px;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(40, 45, 84, 0.1);
+  text-shadow: 1px 2px 4px #ffffff33;
+}
+
+.game-draw-counter {
+  font-family: "Arial";
+  color: #222; /* dark text */
+  text-align: center;
+  font-size: 1.4rem;
+}
