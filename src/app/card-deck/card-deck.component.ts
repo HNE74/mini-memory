@@ -26,7 +26,6 @@ export class CardDeckComponent {
   cardSelected(card: Card) {
     if (!this.firstSelectedCard) {
       this.firstSelectedCard = card;
-      this.gameService.increaseDraws();
       return;
     }
 
